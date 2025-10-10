@@ -1,0 +1,7 @@
+# Arquivos e pastas a serem ignorados
+__pycache__/
+*.pyc
+logs/
+.env
+.vscode/
+.DS_Store
