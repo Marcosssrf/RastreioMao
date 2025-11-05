@@ -7,6 +7,7 @@ Este projeto permite controlar o cursor do mouse usando movimentos das mãos cap
 Captura de vídeo em tempo real via webcam. Rastreamento da mão utilizando o módulo hand_tracking. Controle do mouse conforme a posição dos dedos. Reconhecimento de gestos (clicar, arrastar, rolar, etc.) através do módulo gesture_control. Interface gráfica simples e funcional (Tkinter). Execução em thread separada, permitindo iniciar e parar o controle sem travar a interface.
 
 🗂️ Estrutura do Projeto
+```
 hand_tracking_app/
 │
 ├── hand_tracking.py         # Módulo responsável por detectar e desenhar landmarks da mão
@@ -15,7 +16,7 @@ hand_tracking_app/
 ├── utils.py                 # Funções auxiliares, como captura de dimensões da tela
 ├── main.py                  # Arquivo principal com a interface Tkinter e controle de execução
 └── README.md
-
+```
 Pré-requisitos
 
 Antes de executar o projeto, é necessário instalar as dependências:
@@ -56,3 +57,4 @@ Adicionar calibração automática para diferentes distâncias da câmera. Imple
 Licença
 
 Este projeto é de uso livre para fins educacionais e de pesquisa. Desenvolvido para demonstrar aplicações práticas de visão computacional e interação natural com o computador.
+
