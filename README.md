@@ -23,14 +23,12 @@ Antes de executar o projeto, é necessário instalar as dependências:
 
 pip install opencv-python mediapipe pyautogui
 
-
-Se estiver usando o Tkinter padrão do Python, ele já vem incluído em instalações completas do Python 3.
-
 Como Executar
 
 Clone o repositório:
 
-git clone https://github.com/seuusuario/hand-tracking-app.git
+git clone https://github.com/Marcosssrf/RastreioMao.git
+
 
 
 Acesse a pasta do projeto:
@@ -57,4 +55,5 @@ Adicionar calibração automática para diferentes distâncias da câmera. Imple
 Licença
 
 Este projeto é de uso livre para fins educacionais e de pesquisa. Desenvolvido para demonstrar aplicações práticas de visão computacional e interação natural com o computador.
+
 
